@@ -38,7 +38,7 @@ module Faker
         # @example
         #   Faker::Games::DnD.city #=> "Earthfast"
         #
-        # @faker.version 2.14.0
+        # @faker.version next
         def city
           fetch('dnd.cities')
         end
@@ -64,7 +64,7 @@ module Faker
         # @example
         #   Faker::Games::DnD.language #=> "Gnomish"
         #
-        # @faker.version 2.14.0
+        # @faker.version next
         def language
           fetch('dnd.languages')
         end
@@ -77,7 +77,7 @@ module Faker
         # @example
         #   Faker::Games::DnD.melee_weapon #=> "Handaxe"
         #
-        # @faker.version 2.14.0
+        # @faker.version next
         def melee_weapon
           fetch('dnd.melee_weapons')
         end
@@ -90,7 +90,7 @@ module Faker
         # @example
         #   Faker::Games::DnD.monster #=> "Manticore"
         #
-        # @faker.version 2.14.0
+        # @faker.version next
         def monster
           fetch('dnd.monsters')
         end
@@ -103,7 +103,7 @@ module Faker
         # @example
         #   Faker::Games::DnD.races #=> "Dwarf"
         #
-        # @faker.version 2.14.0
+        # @faker.version next
         def race
           fetch('dnd.races')
         end
@@ -116,7 +116,7 @@ module Faker
         # @example
         #   Faker::Games::DnD.ranged_weapon #=> "Shortbow"
         #
-        # @faker.version 2.14.0
+        # @faker.version next
         def ranged_weapon
           fetch('dnd.ranged_weapons')
         end
