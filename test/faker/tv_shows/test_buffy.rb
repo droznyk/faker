@@ -15,11 +15,6 @@ class TestFakerTvShowsBuffy < Test::Unit::TestCase
     assert @tester.quote.match(/\w+/)
   end
 
-  def test_actor
-    assert @tester.actor.match(/\w+/)
-  end
-
-  # deprecated
   def test_celebrity
     assert @tester.celebrity.match(/\w+/)
   end
