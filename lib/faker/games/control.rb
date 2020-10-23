@@ -23,7 +23,7 @@ module Faker
         # @return [String]
         #
         # @example
-        #   Faker::Games::Control.location #=> "Dimensional Research"
+        #   Faker::Games::Control.character #=> "Dimensional Research"
         #
         # @faker.version 2.13.0
         def location
