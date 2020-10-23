@@ -80,19 +80,6 @@ module Faker
       def yoda
         fetch('quote.yoda')
       end
-
-      ##
-      # Produces a quote from a fortune cookie.
-      #
-      # @return [String]
-      #
-      # @example
-      #   Faker::Quote.fortune_cookie #=> "This cookie senses that you are superstitious; it is an inclination that is bad for your mental health."
-      #
-      # @faker.version next
-      def fortune_cookie
-        fetch('quote.fortune_cookie')
-      end
     end
   end
 end
