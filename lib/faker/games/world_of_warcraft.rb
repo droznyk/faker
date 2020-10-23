@@ -14,32 +14,7 @@ module Faker
         #
         # @faker.version 1.9.2
         def hero
-          fetch('games.world_of_warcraft.heros')
-        end
-
-        ##
-        # Produces a class name from World of Warcraft.
-        #
-        # @return [String]
-        #
-        # @example
-        #   Faker::Games::WorldOfWarcraft.class_name #=> "Druid"
-        #
-        # @faker.version next
-        def class_name
-          fetch('games.world_of_warcraft.class_names')
-        end
-
-        # Produces the name of a race from World of Warcraft.
-        #
-        # @return [String]
-        #
-        # @example
-        #   Faker::Games::WorldOfWarcraft.race #=> "Druid"
-        #
-        # @faker.version next
-        def race
-          fetch('games.world_of_warcraft.races')
+          fetch('games.world_of_warcraft.hero')
         end
 
         ##
