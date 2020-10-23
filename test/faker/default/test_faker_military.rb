@@ -23,14 +23,6 @@ class TestFakerMilitary < Test::Unit::TestCase
     assert @tester.air_force_rank.match(/\w/)
   end
 
-  def test_space_force_rank
-    assert @tester.space_force_rank.match(/\w/)
-  end
-
-  def test_coast_guard_rank
-    assert @tester.coast_guard_rank.match(/\w/)
-  end
-
   def test_dod_paygrade
     assert @tester.dod_paygrade.match(/\w/)
   end
