@@ -16,6 +16,4 @@ Faker::Games::ElderScrolls.first_name #=> Astrid
 Faker::Games::ElderScrolls.last_name #=> Mallory
 
 Faker::Games::ElderScrolls.name #=> Babette Brill
-
-Faker::Games::ElderScrolls.weapon #=> Elven Bow
 ```
