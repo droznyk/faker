@@ -14,13 +14,12 @@ task :reformat_yaml, [:filename] do |_, args|
 end
 
 def reformat_file(filename)
-  puts "Reformatting #{filename}"
+  puts "reformatting #{filename}"
 
   input = YAML.load_file(filename)
-  # Psych outputs non-indented hypendated array list items.
-  output = input.to_yaml(line_width: -1)
-                .gsub(/(^ *- .+$)/, '  \1') # Indent hypenated list items
-                .sub(/^---\n/, '') # Remove header
+  output = input.to_yaml
+
+  output.sub!(/^---\n/, '') # remove header
 
   File.write(filename, output)
 end
