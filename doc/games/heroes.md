@@ -1,4 +1,4 @@
-# Faker::Games::Heroes
+# Faker::Games::House
 
 ```ruby
 Faker::Games::Heroes.name #=> "Christian"
